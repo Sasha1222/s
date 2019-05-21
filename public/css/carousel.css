@@ -1,0 +1,68 @@
+.slider_kids {
+	width: 100%!important;
+	height: 780px!important;
+	position: relative!important;
+	right: 0;
+	z-index: 9;
+	top: 0!important;
+	float: left;
+	margin: 60px 0!important;
+}
+.kidsslide-item {
+	background-size: cover;
+	background-position: center center;
+}
+.slider_kids .slick-arrow {
+	height: 50px;
+	top: auto!important;
+	bottom: 30px;
+	margin-top: -30px;
+	width: 50px;
+	position: absolute;
+}
+.teache-arr span:before {
+	font-family: tancypro;
+	color: #ffdc12;
+	transition: all .15s;
+}
+.teache-arr:hover span:before {
+	color: #e63875;
+}
+.pinkslid-arr.-prev:after, .teache-arr.-prev span:before {
+	content: "m";
+}
+.teache-arr.-next span:before {
+	content: "n";
+}
+.teache-arr span {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid #ffdc12;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 55px;
+	height: 55px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	transition: all .15s;
+}
+.teache-arr:hover span {
+	width: 65px;
+	height: 65px;
+	margin: -5px 0 0 -5px;
+	border-color: #e63875;
+}

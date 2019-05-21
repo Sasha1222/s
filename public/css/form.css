@@ -1,0 +1,472 @@
+.t-icon{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 30% !important;
+}
+
+.teacher-panel .image{
+	position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 101;
+    overflow-y: auto
+}
+.overlay.-visible {
+    display: block
+}
+.overlay-item {
+    min-height: 100%;
+    visibility: hidden;
+    display: none;
+    background-color: rgba(255, 214, 16, .6);
+    overflow: hidden;
+    position: relative
+}
+.overlay-item.-active {
+    display: block;
+    visibility: visible
+}
+.overlay-item.-sea {
+    background-color: rgba(45, 200, 255, .6)
+}
+.overlay-item.-orange {
+    background-color: rgba(255, 96, 18, .6)
+}
+
+.formbox {
+    /*padding-top: 150px;*/
+    /*text-align: right;*/
+    /*float: right;*/
+    /*display: inline-block;*/
+    /*margin-bottom: 75px*/
+}
+.formbox-section {
+    overflow: hidden;
+    padding-top: 65px;
+    clear: both
+}
+.formbox-section:after {
+    display: table;
+    clear: both
+}
+
+.formbox.-col-1 .labelbox {
+    width: 320px;
+    float: none;
+    text-align: left;
+    margin: 20px 0!important
+}
+.formbox.-col-1 .-forget:hover,
+.formbox.-col-1 .-samebox:hover{
+    text-decoration: underline;
+}
+
+.formbox.-col-1 .-forget,
+.formbox.-col-1 .-samebox{
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    float: left;
+}
+.formbox.-profile .layout-container{
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 80px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+}
+.formbox.-profile {
+    float: none;
+    display: block;
+    padding-top: 75px
+}
+.formbox.-profile h4 {
+    float: left;
+    margin-left: 240px;
+    font-size: 56px;
+    line-height: 61px;
+    font-weight: 700
+}
+.formbox.-profile:before {
+    display: none
+}
+.formbox.-profile .formbox-content {
+    /*float: left;*/
+    float: none;
+    left: 50%;
+    margin-left: -360px;
+    -webkit-box-shadow: 15px 15px 25px 1px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 15px 15px 25px 1px rgba(0, 0, 0, .15);
+    box-shadow: 15px 15px 25px 1px rgba(0, 0, 0, .15)
+}
+.formbox.-profile .formbox-figure {
+    position: absolute;
+    height: 915px;
+    left: 240px;
+    top: -80px;
+    width: 2560px;
+    background-color: #2dc8ff;
+    display: none;
+}
+
+.formbox.-profile .formbox-table{
+	 display: none;
+}
+
+.formbox.-profile .formbox-figure:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border-top: 100px solid #2dc8ff;
+    border-left: 2560px solid transparent
+}
+.formbox-table {
+    position: relative;
+    float: right;
+    text-align: left;
+    max-width: 560px
+}
+.formbox-table h3 {
+    margin-bottom: 30px
+}
+.formbox-table-name {
+    padding-right: 60px;
+    color: #fff;
+    max-width: 240px
+}
+.formbox-table-date {
+    width: 160px
+}
+.formbox-table-cost {
+    font-family: futura-pt-medium;
+    width: 80px;
+    float: right;
+    text-align: right
+}
+.formbox-table-cost,
+.formbox-table-date,
+.formbox-table-name {
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: top
+}
+.formbox-table-item {
+    margin: 10px 0
+}
+#signup .-samebox{
+    margin-left: 30px;
+}
+.-samebox:hover{
+    text-decoration: underline;
+}
+
+.formbox-table-arr {
+    position: absolute;
+    right: -18px;
+    cursor: pointer
+}
+.formbox h4,
+.formbox-content {
+    float: right;
+    position: relative;
+    text-align: left
+}
+.formbox-table-arr:before {
+    font-family: tancypro;
+    font-size: 36px
+}
+.formbox-table-arr.-prev {
+    top: -65px
+}
+.formbox-table-arr.-prev:before {
+    content: "k"
+}
+.formbox-table-arr.-next {
+    bottom: -65px
+}
+.formbox-table-arr.-next:before {
+    content: "j"
+}
+.formbox-table-arr.slick-disabled {
+    opacity: .3;
+    cursor: default
+}
+.formbox h4 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 35px;
+    width: 100%;
+    text-align: center;
+}
+.formbox-content {
+    padding: 55px 80px 75px;
+    background: #fff;
+    display: inline-block;
+    clear: both
+}
+.formbox-content:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.formbox-content .checkbox:nth-child(2n+3),
+.formbox-content .labelbox:nth-child(2n+3) {
+    clear: left
+}
+.formbox-content .labelbox {
+    float: left
+}
+.formbox-content .checkbox {
+    margin-top: 45px;
+    float: left
+}
+#signin .formbox .formbox-content {
+    text-align: center;
+}
+#signin .formbox{
+    max-width: 500px;
+    left: 50%;
+    position: absolute;
+    margin-left: -250px;
+    top: 20%;
+}
+#forget .formbox-content{
+    text-align: center;
+}
+#forget .formbox{
+    max-width: 480px;
+    left: 50%;
+    position: absolute;
+    margin-left: -240px;
+    top: 20%;
+}
+#signup .formbox{
+    max-width: 800px;
+    left: 50%;
+    position: absolute;
+    margin-left: -400px;
+    top: 20%;
+}
+.formbox-footer {
+    background-color: #fddc05;
+    height: 150px;
+    clear: both;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 80px
+}
+.greenbox-col,
+.hallbox-arr span,
+.halls-hover {
+    -webkit-box-sizing: border-box
+}
+.formbox-social.-vk:after,
+.hallbox-close:before {
+    font-family: tancypro
+}
+.formbox-footer p {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    float: left;
+}
+.formbox button {
+    /*position: absolute;*/
+    /*left: 80px;*/
+    /*bottom: -25px*/
+}
+.formbox-social {
+    color: #3058ff;
+    font-size: 40px;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fff
+}
+.formbox-socials a{
+    text-decoration: none;
+    float: left;
+}
+.formbox-social.-vk:after {
+    content: "i"
+}
+@media (max-width: 1540px) {
+    .formbox-content {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+    .formbox .labelbox {
+        margin: 0 20px 20px!important
+    }
+    .formbox .labelbox:nth-child(2n+3) {
+        clear: none
+    }
+    .formbox-section {
+        padding-top: 25px
+    }
+    .formbox .checkbox {
+        margin-top: 15px
+    }
+    .formbox-table {
+        max-width: 80%;
+        padding-top: 40px
+    }
+    .formbox-table h3 {
+        margin-bottom: 15px
+    }
+    .formbox-table-name {
+        max-width: none
+    }
+}
+@media (max-width: 700px) {
+    .formbox {
+        float: none
+    }
+    .formbox.-profile .formbox-figure {
+        left: 0;
+        height: 100%
+    }
+    .formbox.-profile h4 {
+        margin-left: 0
+    }
+    .formbox-table {
+        width: 100%;
+        max-width: 100%;
+        padding-top: 60px
+    }
+    .formbox-table-arr {
+        right: 0
+    }
+    .formbox-table-item {
+        display: -webkit-box!important;
+        display: -webkit-flex!important;
+        display: -moz-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important
+    }
+    .formbox-table-cost,
+    .formbox-table-date {
+        white-space: nowrap;
+        padding-left: 20px
+    }
+    .formbox-table-name {
+        padding-right: 0
+    }
+    .formbox .-samebox {
+        right: 40px
+    }
+    .formbox-content .checkbox {
+        margin-left: 0!important
+    }
+    .formbox-footer {
+        padding-left: 40px
+    }
+    .formbox button {
+        left: 40px
+    }
+}
+.alertbox-close{
+    position: absolute;
+    right: -40px;
+    top: -50%;
+    z-index: 5;
+    color: #3058ff;
+    cursor: pointer;
+}
+.formbox-content .checkbox label:before,
+.formbox-content .labelbox .radiobox label:before{
+    content: "";
+    background: #fff;
+    border: 2px solid #a66eeb;
+    display: block;
+    height: 18px;
+    float: left;
+    margin-bottom: 4px;
+    line-height: 16px!important;
+    position: relative;
+    text-align: center;
+    width: 18px;
+    margin-right: 10px;
+}
+.formbox-content .checkbox input:checked + label:after,
+.formbox-content .labelbox .radiobox input:checked + label:after{
+    font-family: "icomoon";
+    content: "\e90a";
+    position: absolute;
+    left: 0;
+    top: -2px;
+    font-size: 14px;
+}
+
+.formbox-content .checkbox input,
+.formbox-content .labelbox .radiobox input{
+    cursor: pointer;
+}
+
+.formbox-content .checkbox input,
+.formbox-content .labelbox .radiobox input{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.formbox-content .checkbox,
+.formbox-content .labelbox .radiobox{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.formbox-content .labelbox input:not([type=file]){
+    border: 1px solid transparent;
+    border-bottom-color: #a66eeb;
+    width: 90%;
+}
+.formbox-content .labelbox{
+    width: 48%;
+    float: left;
+    margin: 0 0 20px!important;
+}
+.formbox-content .labelbox label{
+    font-size: 14px;
+
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.formbox-content button[type=submit]:hover{
+    /*background-color: #cd4a4c;*/
+}
+.formbox-content button:disabled{
+    background-color: #a4a0a4!important;
+}
+.formbox-content button[type=submit]{
+    /*font-size: 14px;
+    line-height: 24px;
+    padding: 20px 40px;
+    background-color: #fc4243;
+    color: #fff;
+    */
+		margin-top: 15px;
+		min-width: 230px;
+    max-width: 100%;
+}
