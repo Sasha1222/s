@@ -1,68 +1,83 @@
-@extends('main')
+    
+    @extends('main')
 
 @section('content')
-<main>
-<div class="size-container">
-  <div class="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
- <a href="/" itemprop="url"><span itemprop="title">Главная</span></a> <span class="separator">/</span> <span itemprop="title">Новости</span>
-  </div>
-   <!-- eo .breadcrumbs -->
-  <div class="article-info">
-    <div class="article-info-container">
-      <div class="article-left">
-        <div class="article-slider">
-          <div class="item">
- <a data-fancybox="gallery" href="http://ptagency.ru/local/templates/tancy_br/img/постановка хореографии.jpg"><img src="http://ptagency.ru//local/templates/tancy_br/img/dance_and_show.jpg"></a>
-          </div>
+  <main role="main">
+   <div class="size-container">
+    <div class="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <a href="#" itemprop="url"><span itemprop="title">Главная</span></a>
+        <span class="separator">/</span>
+        <span itemprop="title">Новости</span>
+      </div>
+ <div class="news">
+       <div class="news-header">
+          <h1>Новости</h1>
         </div>
-         <!-- eo .article-slider -->
-      </div>
-       <!-- eo .article-left -->
-      <div class="article-right">
-        <h1>Постановка хореографии</h1>
-        <p>
- <b>Кому мы полезны:</b>&nbsp;режиссерам, продюсерам,&nbsp;эстрадным артистам и певцам, организаторам и молодоженам для постановки свадебного танца.
-        </p>
-        <p>
- <b>Что мы делаем:</b>&nbsp;ставим хореографию и привлекаем танцовщиков для рекламных роликов, клипов, сериалов и кино. Придумываем танцевальные шоу для певцов. Организовываем флешмобы. Создаем танцевальные номера для больших концертов и корпоративов. Ставим свадебные танцы для молодоженов.&nbsp;
-        </p>
-        <p>
-           Наши репетиционные залы расположены прямо в центре Москвы. Каждый зал не только оборудован по современными технологиям, но и всегда чистый и уютный.
-        </p>
-        <p>
- <b>Некоторые из наших&nbsp;хореографов:</b>&nbsp;Екатерина Решетникова, Алексей Карпенко, Александр Могилев, Александр Тронов, Дмитрий Черкозьянов, Алексей Шалбуров, Андрей Бойко,&nbsp;Виталий Клименко.
-        </p>
-        <p>
- <b>Основные стили танцев:</b> Hip-Hop, Contemporary, Twerk, Dancehall, House, Jazz Funk, Vogue, Afro, Jazz Modern, Breakdance, Popping, High Heels, Классика.
-        </p>
-        <p>
- <b>Что мы уже сделали:</b>
-        </p>
-        <p>
-           – Постановка хореографии и привлечение танцовщиков для рекламных роликов брендов: Nestle, Мегафон, Adidas, Gloria Jeans, KENZO, промо ролика сериала «Улица» на ТНТ, шоу «ТАНЦЫ» на ТНТ.<br>
-        </p>
-        <p>
-           – Постановка хореографии и привлечение танцовщиков для клипов: Therr Maitz, Feduk, BuRiTo, Влад Соколовский, Скруджи, Сосо Павлиашвили.
-        </p>
-        <p>
-           – Постановка шоу-программы для церемонии «Золотой Граммофон» 2017 года.<br>
-        </p>
-        <p>
-           – Постановка открытия&nbsp;Ежегодной Спартакиады ВТБ в Лужниках
-        </p>
-        <p>
-           –&nbsp;Постановка танца для выступления совместно&nbsp;с&nbsp;Will Smith, Nicky Jam и Era Istrefi на закрытии чемпионата мира по футболу 2018 в Москве
-        </p>
-      </div>
-       <!-- eo .article-right -->
-    </div>
-     <!-- eo .article-info-container -->
-  </div>
-   <!-- eo .article-info -->
-</div>
- <!-- eo .size-contianer --> </main>
+            <div class="news-container">
+                            
+                    <div class="item">
+                  <a href="/news/25-maya-protantsy-kontsert-kids/" class="item-container ">
+                                                            <img src="http://tancy.pro/upload/resize_cache/iblock/b29/555_555_2/b29f9fe41a975b074c3370281b7d6dab.jpg" alt="25 мая - PROТАНЦЫ.Концерт kids">
+                                                <div class="desc">
+                        <div class="desc-container">
+                           <div class="name">25 мая - PROТАНЦЫ.Концерт kids</div>
+                           <div class="intro">20.05.2019 23:26</div>
+                        </div> <!-- eo .desc-container -->
+                     </div> <!-- eo .desc -->
+                  </a>
+        </div> <!-- eo .item -->
+              <div class="item">
+                  <a href="/news/25-maya-protantsy-kontsert-nazad-v-budushchee/" class="item-container ">
+                                                            <img src="http://tancy.pro//upload/resize_cache/iblock/8be/555_555_2/8be35f499f6c3fae92e29a32c4c5f058.jpg" alt="25 мая - PROТАНЦЫ.Концерт &quot;Назад в будущее&quot;">
+                                                <div class="desc">
+                        <div class="desc-container">
+                           <div class="name">25 мая - PROТАНЦЫ.Концерт "Назад в будущее"</div>
+                           <div class="intro">17.05.2019 18:14</div>
+                        </div> <!-- eo .desc-container -->
+                     </div> <!-- eo .desc -->
+                  </a>
+        </div> <!-- eo .item -->
+              <div class="item">
+                  <a href="/news/prodlyenka/" class="item-container ">
+                                                            <img src="http://tancy.pro//upload/resize_cache/iblock/e7d/555_555_2/e7d482942d9ea7ad202a9cf56f56ce08.jpg" alt="Летняя программа PROДЛЁНКА для детей 7-13 лет!">
+                                                <div class="desc">
+                        <div class="desc-container">
+                           <div class="name">Летняя программа PROДЛЁНКА для детей 7-13 лет!</div>
+                           <div class="intro">30.04.2019 19:21</div>
+                        </div> <!-- eo .desc-container -->
+                     </div> <!-- eo .desc -->
+                  </a>
+        </div> <!-- eo .item -->
+              <div class="item">
+                  <a href="/news/abonementy-leto/" class="item-container ">
+                                                            <img src="http://tancy.pro//upload/resize_cache/iblock/da4/555_555_2/da48ee9194b386ad4eee30a9d4098810.png" alt="Абонементы Лето">
+                                                <div class="desc">
+                        <div class="desc-container">
+                           <div class="name">Абонементы Лето</div>
+                           <div class="intro">30.04.2019 19:11</div>
+                        </div> <!-- eo .desc-container -->
+                     </div> <!-- eo .desc -->
+                  </a>
+        </div> <!-- eo .item -->
+            
+         <div style="display:none" id="pager"><div class="modern-page-navigation">
+   <span class="modern-page-title">Страницы:</span>
+         <a class="modern-page-previous" href="/news/?ajax=Y&amp;PAGEN_1=2">Пред.</a>
+      <a href="/news/?ajax=Y" class="modern-page-first">1</a>
+      <a href="/news/?ajax=Y&amp;PAGEN_1=2" class="">2</a>
+      <span class="modern-page-current">3</span>
+      <a href="/news/?ajax=Y&amp;PAGEN_1=4" class="">4</a>
+      <a href="/news/?ajax=Y&amp;PAGEN_1=5" class="">5</a>
+      <a class="modern-page-dots" href="/news/?ajax=Y&amp;PAGEN_1=18">...</a>
+      <a href="/news/?ajax=Y&amp;PAGEN_1=31">31</a>
+      <a class="modern-page-next" href="/news/?ajax=Y&amp;PAGEN_1=4">След.</a>
+</div></div><div class="item news-more" style="top:auto;"><a class="btn blue-bordered btn-xxl">Ещe</a></div></div></div>
+
+   </div>
+</main>
 @endsection
 
  @section('javascript')
   
  @endsection
+  

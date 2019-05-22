@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::resource('/artists', 'ArtistsController');
 Route::resource('/news', 'NewsController');
- 
+Route::resource('/uslugi', 'UslugiController');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -30,11 +30,7 @@ Route::get('/project', function () {
 Route::get('/about', function () {
     return view('about');
 });
-
  
-Route::get('/uslugi', function () {
-    return view('uslugi');
-});
 
 Route::get('/shows', function () {
     return view('shows');

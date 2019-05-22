@@ -86,10 +86,9 @@ class NewsController extends Controller
     public function show(Request $request, $slug)
     { 
   
-        
-       $news = News::where('slug', "$slug")->first();
+       
      
-           return view('news.show', compact('news'));
+           return view('news.show');
       
     }
 

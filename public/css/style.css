@@ -2174,11 +2174,13 @@ body.stop-scrolling {
       opacity: 0.75; }
 
 h1 {
-  font-size: 32px;
-  line-height: 40px;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  text-transform: uppercase; }
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color:  #522fbd;
+}
   @media only screen and (max-width: 1023px) {
     h1 {
       /*font-size: 50px;
@@ -2208,7 +2210,10 @@ h5 {
 h3, p.special-yellow, p.special-orange, h4 {
   font-size: 30px;
   line-height: 30px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px; 
+  color: #8b40e5;
+
+}
   @media only screen and (max-width: 767px) {
     h3, p.special-yellow, p.special-orange, h4 {
       font-size: 24px;
@@ -4209,6 +4214,146 @@ header {
   .slick-arrow:before {
     color: #26243c;
     opacity: 1; }
+
+    .news {
+  overflow: hidden;
+  padding-top: 140px;
+  position: relative;
+  z-index: 0; }
+  @media only screen and (max-width: 1023px) {
+    .news {
+      padding-top: 90px; } }
+  @media only screen and (max-width: 767px) {
+    .news {
+      padding: 0; } }
+  .news .news-header {
+    left: 0;
+    position: absolute;
+    top: 0; }
+    @media only screen and (max-width: 767px) {
+      .news .news-header {
+        position: static; } }
+  .news .news-container {
+    margin: 140px -30px -140px;
+    position: relative;
+    top: -140px; }
+    .news .news-container:before, .news .news-container:after {
+      display: table;
+      content: ''; }
+    .news .news-container:after {
+      clear: both; }
+    @media only screen and (max-width: 1023px) {
+      .news .news-container {
+        margin: 90px -15px -90px;
+        top: -90px; } }
+    @media only screen and (max-width: 767px) {
+      .news .news-container {
+        margin: 0;
+        top: auto; } }
+    .news .news-container .item {
+      float: left;
+      margin-bottom: 60px;
+      padding: 0 30px;
+      position: relative;
+      width: 50%; }
+      @media only screen and (max-width: 1023px) {
+        .news .news-container .item {
+          margin-bottom: 30px;
+          padding: 0 15px; } }
+      @media only screen and (max-width: 767px) {
+        .news .news-container .item {
+          float: none !important;
+          margin-bottom: 15px;
+          padding: 0;
+          width: auto; } }
+      .news .news-container .item:nth-child(even) {
+        top: -140px; }
+        @media only screen and (max-width: 1023px) {
+          .news .news-container .item:nth-child(even) {
+            top: -90px; } }
+        @media only screen and (max-width: 767px) {
+          .news .news-container .item:nth-child(even) {
+            top: auto; } }
+      .news .news-container .item .item-container {
+        color: #fff;
+        display: block;
+        position: relative; }
+        .news .news-container .item .item-container img {
+          display: block;
+          height: 100%;
+          width: 100%; }
+        .news .news-container .item .item-container:hover {
+          color: #26243c; }
+          .news .news-container .item .item-container:hover .desc {
+            background: #fddc05;
+            opacity: 1; }
+            .news .news-container .item .item-container:hover .desc {
+              -webkit-transition: all 0.15s ease-out;
+              -o-transition: all 0.15s ease-out;
+              -moz-transition: all 0.15s ease-out;
+              transition: all 0.15s ease-out; }
+            .news .news-container .item .item-container:hover .desc:hover, .news .news-container .item .item-container:hover .desc:focus {
+              -webkit-transition: all 0.15s ease-out;
+              -o-transition: all 0.15s ease-out;
+              -moz-transition: all 0.15s ease-out;
+              transition: all 0.15s ease-out; }
+        .news .news-container .item .item-container.noimage .desc {
+          opacity: 1; }
+        .news .news-container .item .item-container .desc {
+          background: transparent;
+          bottom: 0;
+          height: 100%;
+          left: 0;
+          opacity: 0;
+          position: absolute;
+          top: 0;
+          width: 100%; }
+          .news .news-container .item .item-container .desc {
+            -webkit-transition: all 0.15s ease-out;
+            -o-transition: all 0.15s ease-out;
+            -moz-transition: all 0.15s ease-out;
+            transition: all 0.15s ease-out; }
+          .news .news-container .item .item-container .desc:hover, .news .news-container .item .item-container .desc:focus {
+            -webkit-transition: all 0.15s ease-out;
+            -o-transition: all 0.15s ease-out;
+            -moz-transition: all 0.15s ease-out;
+            transition: all 0.15s ease-out; }
+          .news .news-container .item .item-container .desc .desc-container {
+            left: 0;
+            padding: 0 30px;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+            -moz-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+            -o-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            width: 100%; }
+          .news .news-container .item .item-container .desc .name {
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 56px;
+            margin-bottom: 30px; }
+            @media only screen and (max-width: 1023px) {
+              .news .news-container .item .item-container .desc .name {
+                font-size: 38px;
+                line-height: 44px;
+                margin-bottom: 15px; } }
+      .news .news-container .item .btn {
+        width: 100%; }
+      .news .news-container .item.item-more {
+        bottom: 60px;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: auto; }
+        @media only screen and (max-width: 1023px) {
+          .news .news-container .item.item-more {
+            bottom: 30px; } }
+        @media only screen and (max-width: 767px) {
+          .news .news-container .item.item-more {
+            margin-bottom: 15px;
+            position: static; } }
 
 .slick-dots {
   list-style: none;
